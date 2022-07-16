@@ -5,8 +5,6 @@ const router = jsonServer.router(db);
 const multer = require("multer");
 const path = require("path");
 
-// const db = require("db.json");
-// server.use(cors());
 
 const middlewares = jsonServer.defaults({
   watch: true,
